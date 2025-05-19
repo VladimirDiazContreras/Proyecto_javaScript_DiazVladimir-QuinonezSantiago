@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #ff0000, #111);
+    color: white;
+  }
+  
+  .container {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logo {
+    width: 200px;
+    margin: 20px auto;
+  }
+  
+  .car {
+    width: 300px;
+    margin-top: 30px;
+  }
+  
+  .car-small {
+    width: 200px;
+    margin-top: 30px;
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-box input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .login-box button {
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-box a {
+    display: block;
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  
