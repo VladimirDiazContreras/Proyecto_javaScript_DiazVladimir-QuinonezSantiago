@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>F1 App - Menú Principal</title>
+  <link rel="stylesheet" href="./style/style2.css">
+</head>
+<body>
+
+  <!-- Fondo -->
+  <img src="./storege/fondo.png" alt="Fondo" class="fondo">
+
+  <!-- Encabezado -->
+  <header>
+    <img src="./storege/image.png" alt="F1 Logo" class="logo">
+    <h1>¿Qué quieres ver?</h1>
+  </header>
+
+  <!-- Carrusel de opciones -->
+  <div class="carousel-wrapper">
+    <button class="arrow left" onclick="moveCarousel(-1)">&#10094;</button>
+
+    <div class="carousel" id="carousel">
+      <div class="card" onclick="goTo('circuitos')">
+        <img src="./storege/circuitos.png" alt="Circuitos">
+        <p>Circuitos</p>
+      </div>
+      <div class="card" onclick="goTo('vehiculos')">
+        <img src="./storege/carro.png" alt="Vehículos">
+        <p>Vehículos</p>
+      </div>
+      <div class="card" onclick="goTo('pilotos')">
+        <img src="./storege/marx.png" alt="Pilotos">
+        <p>Pilotos</p>
+      </div>
+      <div class="card" onclick="goTo('escuderias')">
+        <img src="./storege/escu.png" alt="Escuderías">
+        <p>Escuderías</p>
+      </div>
+    </div>
+
+    <button class="arrow right" onclick="moveCarousel(1)">&#10095;</button>
+  </div>
+
+  <script src="./script/script2.js"></script>
+</body>
+</html>
+

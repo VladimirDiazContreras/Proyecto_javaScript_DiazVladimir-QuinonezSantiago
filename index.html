@@ -10,6 +10,31 @@
   <div class="container" id="screen1">
     <img src="./storege/image.png" class="logo" alt="F1 Logo"/>
   </div>
+  <div class="slider-wrapper">
+  <button class="slider-btn left" onclick="slide('left')">&#10094;</button>
+  
+  <div class="slider" id="slider">
+    <div class="card" onclick="goTo('circuitos')">
+      <img src="./storege/circuitos.png" alt="Circuitos">
+      <p>Circuitos</p>
+    </div>
+    <div class="card" onclick="goTo('vehiculos')">
+      <img src="./storege/carro.png" alt="Vehículos">
+      <p>Vehículos</p>
+    </div>
+    <div class="card" onclick="goTo('pilotos')">
+      <img src="./storege/marx.png" alt="Pilotos">
+      <p>Pilotos</p>
+    </div>
+    <div class="card" onclick="goTo('escuderias')">
+      <img src="./storege/escu.png" alt="Escuderías">
+      <p>Escuderías</p>
+    </div>
+  </div>
+
+  <button class="slider-btn right" onclick="slide('right')">&#10095;</button>
+</div>
+
 
   <div class="container" id="screen2">
     <img src="./storege/image.png" class="logo" alt="F1 Logo"/>
@@ -22,7 +47,7 @@
       <h2>LOGIN</h2>
       <input type="email" placeholder="Email address" />
       <input type="password" placeholder="Password" />
-      <button>LOG IN</button>
+      <a href="./index2.html"><button>LOG IN</button></a>
       <a href="#">Forgot password?</a>
     </div>
     <img src="./storege/image 1.png" class="car-small" alt="F1 Car"/>
