@@ -4,7 +4,10 @@ body {
   background: linear-gradient(to top, #ff0000, #111);
   color: white;
 }
-
+.fondo{
+  position: fixed;
+  height: 110%;
+}
 .container {
   display: none;
   height: 100vh;
@@ -31,12 +34,29 @@ body {
   margin-top: 30px;
 }
 
+
+
+.logo1 {
+  animation: scaleUp 1s ease-in-out forwards;
+  width: 100px;
+}
+
 .login-box {
   background: rgba(0, 0, 0, 0.6);
   padding: 30px;
   border-radius: 10px;
   display: inline-block;
   margin-top: 20px;
+  animation: scaleUp 1s ease-in-out forwards;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
 }
 
 .login-box h2 {
