@@ -9,7 +9,7 @@ function showNextScreen() {
   if (index < screens.length) {
     document.getElementById(screens[index]).style.display = 'flex';
     
-    // Solo continuar si no estamos en la última pantalla
+    // Solo continuar si no estamos en la última pantalla 1234567890
     if (index < screens.length - 1) {
       setTimeout(showNextScreen, 2500);
     }
