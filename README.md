@@ -1,4 +1,4 @@
-# Proyecto_Python_DiazVladimir-SantiagoQuiñones
+# Proyecto_Python_DiazVladimir-SantiagoQuiñonez
 
 # Proyecto de JS
 este git del proyecto  de la skiil de js, este proyeto se basa en una base de datos para camuslands
@@ -17,6 +17,8 @@ este git del proyecto  de la skiil de js, este proyeto se basa en una base de da
 Deberás ejecutar este Proyecto usa este link 
 
 [link](https://vladimirdiazcontreras.github.io/Proyecto_javaScript_DiazVladimir-QuinonezSantiago/)
+
+[figma](https://www.figma.com/design/WgjEoHdWWoslUhQ38pWgMA/f1-figma?node-id=0-1&p=f&t=2qDCgmjTElQkXcC9-0)
 
 
 ### explicación  
